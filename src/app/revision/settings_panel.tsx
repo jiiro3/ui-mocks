@@ -1,4 +1,5 @@
 import { SettingsPanel, SettingsItem } from "../components/settings_panel";
+import "./styles.css"
 
 export default function RevisionSettingsPanel() {
   return (

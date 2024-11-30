@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.settings-section {
+  background-color: "#000000"
+}
+.settings-drawer {
+  background-color: "#000000"
+}
+
+

@@ -18,13 +18,9 @@ export default function RevisionSettingsPanel() {
       <div className="settings-section">
         <h3>Details</h3>
         <SettingsRow>
-          <SettingsItem
-            title="Name:"
-            inputType="text"
-            value={name}
-            onChange={(e) => {
-              setName(e);
-            }} />
+          <SettingsItem title="Name:" inputType="text" value={name} onChange={(e) => {
+            setName(e);
+          }} />
           <SettingsItem
             title="Type:"
             inputType="select"
